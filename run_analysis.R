@@ -1,5 +1,3 @@
-setwd("C:/R_Working/Data")
-
 library(dplyr)
 
 # Get the features
@@ -54,8 +52,6 @@ tidy.data.set.1 <- cbind(data.subject
                          , data.y
                          , data.X
                          )
-
-setwd("C:/Coursera/Data Science Specialization/Getting and Cleaning Data/Project 2")
 
 # Create text file for first dataset
 write.table(tidy.data.set.1
